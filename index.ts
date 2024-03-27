@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
-console.log("Wellcome in calculator")
+console.log("Wellcome in my calculator")
 const answer = await inquirer.prompt([
   {
     message: "select one of the operator to perform operation",
